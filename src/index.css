@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: monospace;
+}
+/* Change the background color */
+::selection {
+  background-color: hsl(275, 48%, 50%); /* Change this to the desired color */
+}
+/* Change the text color */
+::-moz-selection {
+  background-color: hsl(275, 48%, 50%); /* Change this to the desired color */
+  color: hsl(275, 48%, 50%); /* Change this to the desired text color */
+}
+nav a {
+  transition: all 0.3s ease 0s;
+}
+nav a:hover {
+  color: hsl(275, 48%, 50%);
+}

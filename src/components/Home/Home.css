@@ -1,0 +1,9 @@
+img {
+  transition: box-shadow 1s;
+}
+img:hover {
+  transition-delay: 0s, 1s;
+  box-shadow: 0 0 10px hsl(275, 48%, 50%), 0 0 20px hsl(275, 48%, 50%),
+    0 0 40px hsl(275, 48%, 50%), 0 0 80px hsl(275, 48%, 50%),
+    0 0 160px hsl(275, 48%, 50%);
+}
