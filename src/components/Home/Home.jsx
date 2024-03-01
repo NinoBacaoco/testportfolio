@@ -5,7 +5,7 @@ export default function Home() {
     <div id="home" className="hero h-screen">
       <div className="hero-content lg:flex-row-reverse">
         <img
-          src="https://scontent.fdvo1-1.fna.fbcdn.net/v/t39.30808-6/332696952_883873462695249_375520125524924838_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeE3x-zUKrE1kT1SzL6aV2zjoYsxHmbg7jehizEeZuDuN7PtWSwmbVCgL7e6mJ1DK-GWBUy0tEZWfUxa3X-gmZVz&_nc_ohc=EvFPu_rgeL0AX-Q5Abm&_nc_ht=scontent.fdvo1-1.fna&oh=00_AfD2O8l5h0yuCWdadMZjfAz2BUhU-to_ueVe_czbRmypvQ&oe=65E0E2DC"
+          src="https://i.pinimg.com/564x/66/40/2f/66402f521d5c4b718a06167cf27fedc0.jpg"
           className="max-w-sm rounded-lg shadow-2xl cursor-pointer"
         />
         <div className="w-3/4">
