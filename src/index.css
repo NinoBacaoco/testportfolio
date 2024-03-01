@@ -20,3 +20,18 @@ nav a {
 nav a:hover {
   color: hsl(275, 48%, 50%);
 }
+
+.n-logo {
+  cursor: pointer;
+  transition: box-shadow 0.5s, background-color 0.5s;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.n-logo:hover {
+  /* transition-delay: 0s, 1s; */
+  transition: box-shadow 0.5s, background-color 0.5s;
+  box-shadow: 0 0 10px hsl(275, 48%, 50%), 0 0 20px hsl(275, 48%, 50%),
+    0 0 40px hsl(275, 48%, 50%), 0 0 80px hsl(275, 48%, 50%),
+    0 0 160px hsl(275, 48%, 50%);
+  background-color: hsl(275, 48%, 50%);
+}

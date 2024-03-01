@@ -1,8 +1,9 @@
+import logo from "/images/n.png";
 export default function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-zinc-900">
+    <footer className="footer footer-center p-10 bg-gray-700">
       <aside>
-        <h1>[image here]</h1>
+        <img src={logo} alt="logo" className="h-20" />
         <p className="font-bold">
           [text here]
           <br />

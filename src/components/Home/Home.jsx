@@ -2,11 +2,11 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div id="home" className="hero h-screen">
+    <div id="home" className="hero h-screen pt-28">
       <div className="hero-content lg:flex-row-reverse">
         <img
           src="https://i.pinimg.com/564x/66/40/2f/66402f521d5c4b718a06167cf27fedc0.jpg"
-          className="max-w-sm rounded-lg shadow-2xl cursor-pointer"
+          className="picture max-w-sm rounded-lg shadow-2xl cursor-pointer"
         />
         <div className="w-3/4">
           <h1 className="text-5xl font-bold cursor-default">Niño Bacaoco</h1>
